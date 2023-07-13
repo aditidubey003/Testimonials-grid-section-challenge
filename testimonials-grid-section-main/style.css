@@ -5,3 +5,117 @@
 }
 
 /* Custom Design */
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+.container{
+    max-width: 1200px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.item-1{
+    /* border: 2px solid black; */
+    background-color:hsl(263, 55%, 52%) ;
+    
+}
+
+.quote-img{
+    position:relative;
+    left: 1000px;
+    z-index: 1;
+}
+.person-information{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.name{
+    margin-left: 20px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid black;
+    
+}
+
+.name h4{
+    color: #fff;
+}
+.name p{
+font-size: 14px;
+color: hsl(0, 0%, 81%);
+}
+
+.heading p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description p {
+    font-size: 16px;
+    color: hsl(0, 0%, 81%);
+    margin-top: 10px;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5{
+    padding: 30px;
+}
+.item-2{
+    background-color:  hsl(217, 19%, 35%);
+   
+}
+
+.item-3{
+    background-color:hsl(0, 0%, 100%);
+}
+
+.item-4{
+    background-color:hsl(0, 0%, 100%) ;
+}
+
+.item-5{
+    background-color:  hsl(219, 29%, 14%);
+}
+
+.circle-1{
+    background-image: url(./images/image-daniel.jpg);
+}
+.circle-2{
+    background-image: url(./images/image-jonathan.jpg);
+
+}
+.circle-3{
+    background-image: url(./images/image-kira.jpg);
+   
+}
+.circle-4{
+    background-image: url(./images/image-jeanette.jpg);
+}
+.circle-5{
+    background-image: url(./images/image-patrick.jpg);
+}
+.heading-black p{
+    color:hsl(217, 19%, 35%);
+}
+
+.black-name h4 {
+    color:  hsl(217, 19%, 35%);
+}
+
+.item{
+    border: 3px solid red;
+}
