@@ -7,7 +7,6 @@
 /* Custom Design */
 
 body{
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,14 +14,20 @@ body{
     background-color: hsl(210, 46%, 95%);
 }
 .container{
-    max-width: 1200px;
     padding: 10px;
-    border: 2px solid black;
+    margin-top:30px;
+    width: 1200px;
+    margin-inline:auto;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 1.5rem;
+    
 }
 
 .item-1{
     /* border: 2px solid black; */
     background-color:hsl(263, 55%, 52%) ;
+    grid-column: span 2;
     
 }
 
@@ -74,21 +79,26 @@ color: hsl(0, 0%, 81%);
 .item-1, .item-2, .item-3, .item-4, .item-5{
     padding: 30px;
 }
+
+
 .item-2{
     background-color:  hsl(217, 19%, 35%);
-   
 }
 
 .item-3{
     background-color:hsl(0, 0%, 100%);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start:4 ;
 }
 
 .item-4{
-    background-color:hsl(0, 0%, 100%) ;
+    background-color:hsl(0, 0%, 100%);
 }
 
 .item-5{
     background-color:  hsl(219, 29%, 14%);
+    grid-column: span 2;
 }
 
 .circle-1{
@@ -117,5 +127,7 @@ color: hsl(0, 0%, 81%);
 }
 
 .item{
-    border: 3px solid red;
+    border-radius: 8px;
+    padding: 30px;
 }
+
